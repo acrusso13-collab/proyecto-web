@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tecnologías Habilitadoras Digitales</title>
+
+<!-- GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- ICONOS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- ANIMACIONES -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0b0f24;
+color:white;
+line-height:1.6;
+}
+
+/* NAV */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#0b0f24;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav h2{
+color:#22d3ee;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-weight:500;
+}
+
+/* HERO */
+
+.hero{
+display:grid;
+grid-template-columns:1fr 1fr;
+align-items:center;
+padding:80px 8%;
+gap:40px;
+}
+
+.hero h1{
+font-size:55px;
+color:#22d3ee;
+}
+
+.hero p{
+margin-top:20px;
+font-size:18px;
+color:#cbd5f5;
+}
+
+.hero img{
+width:100%;
+border-radius:10px;
+box-shadow:0 20px 40px rgba(0,0,0,0.6);
+}
+
+/* SECCIONES */
+
+section{
+padding:80px 8%;
+}
+
+section h2{
+font-size:36px;
+margin-bottom:20px;
+color:#22d3ee;
+}
+
+/* TARJETAS */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+background:#141a3a;
+padding:30px;
+border-radius:12px;
+text-align:center;
+transition:0.4s;
+}
+
+.card i{
+font-size:40px;
+color:#22d3ee;
+margin-bottom:15px;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 20px 40px rgba(0,0,0,0.5);
+}
+
+/* IMÁGENES */
+
+.tech-images{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.tech-images img{
+width:100%;
+border-radius:10px;
+}
+
+/* FOOTER */
+
+footer{
+background:#050816;
+text-align:center;
+padding:30px;
+margin-top:60px;
+color:#9ca3af;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAV -->
+
+<nav>
+
+<h2>THD</h2>
+
+<ul>
+<li><a href="#que">Qué son</a></li>
+<li><a href="#importancia">Importancia</a></li>
+<li><a href="#tecnologias">Tecnologías</a></li>
+</ul>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div data-aos="fade-right">
+
+<h1>Tecnologías digitales</h1>
+
+<p>
+Explorando la inteligencia artificial, el Big Data, la nube y el Internet de las Cosas.
+Las tecnologías que están transformando el mundo empresarial.
+</p>
+
+</div>
+
+<div data-aos="fade-left">
+
+<img src="imagen.png" width="600">
+
+</div>
+
+</section>
+
+<!-- QUE SON -->
+
+<section id="que">
+
+<h2 data-aos="fade-up">¿Qué son las Tecnologías Habilitadoras Digitales?</h2>
+
+<p data-aos="fade-up">
+Las Tecnologías Habilitadoras Digitales (THD) son herramientas tecnológicas avanzadas que permiten a las empresas mejorar sus procesos, innovar y adaptarse al entorno digital.
+</p>
+
+<p data-aos="fade-up">
+Estas tecnologías impulsan la transformación digital y permiten analizar grandes cantidades de información, automatizar procesos y mejorar la toma de decisiones.
+</p>
+
+</section>
+
+<!-- IMPORTANCIA -->
+
+<section id="importancia">
+
+<h2 data-aos="fade-up">Importancia para las empresas</h2>
+
+<div class="cards">
+
+<div class="card" data-aos="zoom-in">
+<i class="fa-solid fa-chart-line"></i>
+<h3>Mejorar eficiencia</h3>
+<p>Automatizan procesos y reducen tiempos de trabajo.</p>
+</div>
+
+<div class="card" data-aos="zoom-in">
+<i class="fa-solid fa-database"></i>
+<h3>Datos inteligentes</h3>
+<p>Permiten analizar grandes cantidades de datos.</p>
+</div>
+
+<div class="card" data-aos="zoom-in">
+<i class="fa-solid fa-lightbulb"></i>
+<h3>Innovación</h3>
+<p>Facilitan la creación de nuevos productos digitales.</p>
+</div>
+
+<div class="card" data-aos="zoom-in">
+<i class="fa-solid fa-user"></i>
+<h3>Mejor experiencia</h3>
+<p>Ayudan a ofrecer mejores servicios al cliente.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- TECNOLOGIAS -->
+
+<section id="tecnologias">
+
+<h2 data-aos="fade-up">Principales Tecnologías</h2>
+
+<div class="cards">
+
+<div class="card" data-aos="flip-left">
+<i class="fa-solid fa-robot"></i>
+<h3>Inteligencia Artificial</h3>
+<p>Sistemas capaces de aprender y tomar decisiones.</p>
+</div>
+
+<div class="card" data-aos="flip-left">
+<i class="fa-solid fa-cloud"></i>
+<h3>Cloud Computing</h3>
+<p>Servicios y almacenamiento en internet.</p>
+</div>
+
+<div class="card" data-aos="flip-left">
+<i class="fa-solid fa-chart-simple"></i>
+<h3>Big Data</h3>
+<p>Análisis de grandes volúmenes de datos.</p>
+</div>
+
+<div class="card" data-aos="flip-left">
+<i class="fa-solid fa-wifi"></i>
+<h3>Internet de las Cosas</h3>
+<p>Dispositivos conectados que comparten información.</p>
+</div>
+
+</div>
+
+<!-- IMÁGENES TECNOLÓGICAS -->
+
+<div class="tech-images">
+
+<img src="https://images.unsplash.com/photo-1677442136019-21780ecad995">
+<img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c">
+<img src="https://images.unsplash.com/photo-1518770660439-4636190af475">
+
+</div>
+
+</section>
+
+<footer>
+
+<p>Proyecto educativo — Tecnologías Habilitadoras Digitales</p>
+
+</footer>
+
+<!-- SCRIPT ANIMACIONES -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+AOS.init({
+duration:1200
+});
+</script>
+
+</body>
+</html>
